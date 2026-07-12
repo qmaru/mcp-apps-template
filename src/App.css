@@ -1,0 +1,32 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+}
+
+.card--error {
+  border-color: #f87171;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.result {
+  margin: 12px 0 0;
+  padding: 12px;
+  background: #f1f5f9;
+  overflow: auto;
+}

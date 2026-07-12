@@ -1,0 +1,12 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
