@@ -1,12 +1,12 @@
 import { useState } from "react"
 
-import type { CallToolResult } from "@modelcontextprotocol/sdk/types"
+import { useMcpApp } from "@/hooks/useMcpApp"
 
-import { useMcpApp } from "@/hooks"
+import type { CallToolResult } from "@modelcontextprotocol/sdk/types"
 
 import "@/App.css"
 
-function App() {
+export default function App() {
   const [result, setResult] = useState<CallToolResult | null>(null)
 
   const { app, error } = useMcpApp({
@@ -64,5 +64,3 @@ function App() {
     </div>
   )
 }
-
-export default App
